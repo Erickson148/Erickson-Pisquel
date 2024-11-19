@@ -1,0 +1,56 @@
+.form h4 {
+    font-weight: 600;
+}
+.form input, .form textarea {
+    font-size: 1rem;
+    padding: 15px;
+}
+.form button {
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+.form button:hover {
+    background-color: #0056b3;
+}
+footer .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .text-center p {
+    margin: 0;
+    padding-top: 10px;
+}
+.hero {
+    background-image: url('path_to_hero_image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(8, 8, 8);
+}
+.event-type-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.gallery img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
